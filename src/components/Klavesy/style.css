@@ -53,11 +53,10 @@ html {
   left: 14.2rem;
 }
 
-.bila:hover {
+.bila:hover:active {
   background-color: rgb(255, 255, 207);
 }
 
-.cerna:hover {
+.cerna:hover:active {
   background-color: darkgrey;
 }
-
