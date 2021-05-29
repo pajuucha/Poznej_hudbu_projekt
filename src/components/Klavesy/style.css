@@ -22,6 +22,29 @@ html {
   height: 10rem;
   border: 1px solid black;
   background-color: ivory;
+  position: relative;
+}
+
+.bila__letter,
+.cerna__letter {
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 0.2rem;
+  width: 100%;
+  left: 0;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.bila__letter {
+  color: black;
+  top: 1rem;
+}
+
+.cerna__letter {
+  color: ivory;
+  font-size: 0.7rem;
 }
 
 .cerna {
@@ -53,10 +76,12 @@ html {
   left: 14.2rem;
 }
 
-.bila:hover:active {
+.bila:hover,
+.bila.is-active {
   background-color: rgb(255, 255, 207);
 }
 
-.cerna:hover:active {
+.cerna:hover,
+.cerna.is-active {
   background-color: darkgrey;
 }
